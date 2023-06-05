@@ -8,7 +8,7 @@ return the equivalent of the sentence when capitalised. E.g
 
 
 function capSentence(text) {
-   // Code goes here
+   // Code goes here gggcfhf
 }
 
 
