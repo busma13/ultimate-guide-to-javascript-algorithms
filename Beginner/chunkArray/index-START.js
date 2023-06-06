@@ -5,7 +5,12 @@
 */
 
 function chunkArray(array, size) {
-    // Code goes here
+    const result = []
+    const arrCopy = array.slice()
+    while (arrCopy.length > 0) {
+        result.push(arrCopy.splice(0, size))
+    }
+    return result
 }
 
 
